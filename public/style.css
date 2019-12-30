@@ -1,0 +1,39 @@
+* {
+  background-color: #84ceeb;
+  padding: 4px;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: 70px auto;
+}
+.left {
+  justify-self: start;
+}
+.left > img {
+  max-width: 60px;
+}
+.right {
+  justify-self: start;
+}
+.right > p,
+.right > p > p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.imgx {
+  background-color: #e27d60;
+}
+.imgl {
+  max-width: 30px;
+  background-color: #e27d60;
+}
+.tex {
+  background-color: #e27d60;
+
+  font-weight: bold;
+  font-size: 70px;
+}
+a {
+  outline: 0;
+}
